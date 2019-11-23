@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eposnow", "eposnow\eposnow.csproj", "{BC6D72C1-0377-4192-964E-EA96564082D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eposnow.Tests", "eposnow.Tests\eposnow.Tests.csproj", "{12F336F3-9DB4-44F1-A4A6-05DC493345C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC6D72C1-0377-4192-964E-EA96564082D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6D72C1-0377-4192-964E-EA96564082D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6D72C1-0377-4192-964E-EA96564082D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6D72C1-0377-4192-964E-EA96564082D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F336F3-9DB4-44F1-A4A6-05DC493345C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F336F3-9DB4-44F1-A4A6-05DC493345C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F336F3-9DB4-44F1-A4A6-05DC493345C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F336F3-9DB4-44F1-A4A6-05DC493345C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE10B120-5026-480D-93D5-21DD6EE9A2A7}
+	EndGlobalSection
+EndGlobal
