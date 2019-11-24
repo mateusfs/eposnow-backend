@@ -6,24 +6,24 @@ using System.Web;
 
 namespace eposnow.Services
 {
-    public class MesaRepository
+    public class TableRepository
     {
-        private List<Mesa> mesas = new List<Mesa>();
+        private List<Table> tables = new List<Table>();
 
-        public List<Mesa> getMesas()
+        public List<Table> getTables()
         {
             for (int i = 1; i <= 5; i++)
             {
-                Mesa mesa = new Mesa
+                Table table = new Table
                 {
                     id = i,
-                    nome = "Mesa " + i,
+                    name = "Table " + i,
                 };
 
-                this.mesas.Add(mesa);
+                this.tables.Add(table);
             }
 
-            return this.mesas;
+            return this.tables;
         }
     }
 }

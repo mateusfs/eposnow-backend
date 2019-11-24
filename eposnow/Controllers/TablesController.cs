@@ -8,15 +8,15 @@ using eposnow.Services;
 
 namespace eposnow.Controllers
 {
-    public class MesasController : ApiController
+    public class TablesController : ApiController
     {
-        private MesaRepository mesaRepositoy = new MesaRepository();
+        private TableRepository tableRepository = new TableRepository();
 
-        public List<Mesa> Get()
+        public List<Table> Get()
         {
             try
             {
-                return this.mesaRepositoy.getMesas();
+                return this.tableRepository.getTables();
             }
             catch (Exception e)
             {
@@ -25,11 +25,11 @@ namespace eposnow.Controllers
             }
         }
 
-        public Mesa Get(int id)
+        public Table Get(int id)
         {
             try
             {
-                Mesa mesa = this.mesaRepositoy.getMesas().First(m => m.id.Equals(id));
+                Table mesa = this.tableRepository.getTables().Find(m => m.id.Equals(id));
                 return mesa;
             }
             catch (Exception e)
@@ -44,10 +44,10 @@ namespace eposnow.Controllers
         {
             try
             {
-                Mesa mesa = this.mesaRepositoy.getMesas().First(m => m.id.Equals(id));
+                Table mesa = this.tableRepository.getTables().Find(m => m.id.Equals(id));
                 if (mesa != null)
                 {
-                    this.mesaRepositoy.getMesas().RemoveAt(this.mesaRepositoy.getMesas().IndexOf(mesa));
+                    this.tableRepository.getTables().RemoveAt(this.tableRepository.getTables().IndexOf(mesa));
                 }
             }
             catch (Exception e)

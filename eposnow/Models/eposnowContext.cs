@@ -19,6 +19,6 @@ namespace eposnow.Models
         {
         }
 
-        public System.Data.Entity.DbSet<eposnow.Models.Comanda> Comandas { get; set; }
+        public System.Data.Entity.DbSet<eposnow.Models.Command> Commands { get; set; }
     }
 }
