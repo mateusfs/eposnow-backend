@@ -5,9 +5,9 @@ using System.Web;
 
 namespace eposnow.Models
 {
-    public class Mesa
+    public class Table
     {
         public int id { get; set; }
-        public string nome { get; set; }
+        public string name { get; set; }
     }
 }

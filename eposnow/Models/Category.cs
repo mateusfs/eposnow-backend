@@ -5,12 +5,9 @@ using System.Web;
 
 namespace eposnow.Models
 {
-    public class Produto
+    public class Category
     {
         public int id { get; set; }
-        public string nome { get; set; }
-        public decimal preco { get; set; }
-        public Catergoria catergoria { get; set; }
-
+        public string name { get; set; }
     }
 }
